@@ -1,0 +1,41 @@
+Service Name,Category,Duration (min),Price,Description
+Buzz Cut,Haircuts,30,35.00,Up to two guards all over. Hot towel, scalp scrub, shampoo & styling included.
+Short Classic Haircut,Haircuts,45,50.00,Short hair starting above the ear. Shears, razor, clipper, or combination. Shampoo & styling included.
+Fade & Fashion Haircuts,Haircuts,60,55.00,High, medium, low, taper fades — undercut, mohawk, mullet, pixie, trendy & TikTok haircuts, and more. Shampoo & styling included.
+Style Change Haircut,Haircuts,75,65.00,For clients making a dramatic shift in length — such as going from a bob to a pixie, or from long hair to a short above-the-ear cut. Includes shampoo & styling.
+Long Haircut,Haircuts,75,80.00,Below-the-ear lengths — trims, bobs, shags & layers. Shampoo & quick styling included. Blowout available as add-on.
+Bang Trim,Haircuts,15,17.50,Cut & style of the fringe section.
+Neck Trim,Haircuts,15,17.50,Clean up the neckline and around the ears. Hot towel & aftershave included.
+Children's Haircut (Ages 6+),Haircuts,45,0.00,Same precision and care as all adult cuts. Priced the same as the equivalent adult service. Ages 6 and up welcome.
+All-Over Color / Root Touch-Up,Color & Highlights,90,0.00,Single-process color applied root to end or a root touch-up to blend new growth. Pricing based on hair length and timing. Consultation required prior to booking.
+Highlights & Balayage,Color & Highlights,120,0.00,Partial or full highlights, balayage, ombre, and dimensional color. Pricing based on technique, coverage, and timing. Consultation required prior to booking.
+Fashion & Vivid Color,Color & Highlights,120,0.00,Bold, creative, and non-natural colors. Pricing based on current hair condition, desired result, and timing. Consultation required prior to booking.
+Perm,Color & Highlights,120,0.00,Custom curl or wave service tailored to your hair type and desired result. Pricing based on hair length, condition, and timing. Consultation required prior to booking.
+Toner / Gloss Treatment,Color & Highlights,30,65.00,Clear gloss or color treatment to enhance shine and refresh tone.
+Color Consultation,Consultations,15,0.00,Discuss your color goals, assess your hair, and determine service, timing, and price. A 50% deposit is required to book the color appointment.
+Mustache Trim,Barbering,15,7.00,Trim, shape, or shave of the upper lip. Performed with shears, clippers, trimmers, or foil shaver. Refreshing aftershave included.
+Goatee Shaping,Barbering,20,17.50,Trim, shape or shave. Refreshing aftershave included.
+Beard Shave Trim & Shape,Barbering,30,35.00,Full facial hair service — chin, cheeks & upper lip. Hot steam towel, cold towel & aftershave included.
+Wash & Style,Styling,60,55.00,A luxurious shampoo and condition with scalp massage and hot towel, followed by styling with a blowout, hot tools, or a combination of both to achieve your desired look.
+Updo & Occasion Styling,Styling,90,0.00,Formal and special event styling for weddings, proms, photoshoots, and any occasion. Contact us to discuss your look and get a quote before booking.
+Scalp Face & Neck Massage,Treatments,15,17.50,15-min muscle manipulation at the shampoo bowl. Complimentary on your birthday month with any other service.
+Forearm Hand & Finger Massage,Treatments,15,17.50,15-min relaxation massage at the shampoo bowl. Complimentary on your birthday month with any other service.
+Clarifying & Shine Treatment,Treatments,15,12.00,Apple cider vinegar plant-based scalp serum that rebalances moisture, removes buildup, and leaves hair refreshed and conditioned.
+Deep Conditioning Treatment,Treatments,30,22.50,Treats and repairs dry or damaged hair, reduces frizz, and increases moisture. Hair is left more manageable and smooth.
+Eyebrow Waxing & Shaping,Waxing,20,35.00,Includes removal of unwanted hair, shaping, and trimming of the brow hairs. Additional areas — chin, cheeks, sideburns, upper lip — $10 each.
+Back Wax,Waxing,45,50.00,Smooth, hair-free finish across the full back.
+Makeup Consultation,Makeup,15,0.00,For weddings, special occasions, photoshoots, Halloween & stage productions. Determine your look, needs & pricing. 50% deposit required to book.
+Skincare Consultation,Consultations,30,25.00,Sit down with our licensed esthetician to build a skincare routine tailored to you.
+Perm Consultation,Consultations,15,0.00,Discuss curl pattern, desired result, and pricing. 50% deposit required to book.
+Blowout,Add-Ons,30,25.00,Add a full blowout to any haircut or service. Hair dryer, paddle, and round brushes used to create smooth, curly, straight, or wavy styles.
+Hot Tools,Add-Ons,20,17.50,Wands, curling irons, and flat irons to create your favorite style.
+Toner Gloss Treatment Add-On,Add-Ons,30,45.00,Clear gloss or color treatment to enhance shine and refresh tone. Add-on price when booked with a main service.
+Deep Conditioning Treatment Add-On,Add-Ons,30,22.50,Treats and repairs dry or damaged hair, reduces frizz, and increases moisture.
+Clarifying & Shine Treatment Add-On,Add-Ons,15,12.00,Apple cider vinegar plant-based scalp serum that rebalances moisture and removes buildup.
+Scalp Face & Neck Massage Add-On,Add-Ons,15,17.50,15-min manipulation at the shampoo bowl. Complimentary on your birthday month with any other service.
+Forearm Hand & Finger Massage Add-On,Add-Ons,15,17.50,15-min relaxation massage at the shampoo bowl. Complimentary on your birthday month with any other service.
+Beard Shave Trim & Shape Add-On,Add-Ons,30,35.00,Full facial hair service — chin, cheeks & upper lip. Hot steam towel, cold towel & aftershave included.
+Goatee Shaping Add-On,Add-Ons,20,17.50,Trim, shape or shave. Refreshing aftershave included.
+Mustache Trim Add-On,Add-Ons,15,7.00,Trim, shape, or shave of the upper lip. Refreshing aftershave included.
+Eyebrow Waxing & Shaping Add-On,Add-Ons,20,35.00,Includes removal of unwanted hair, shaping, and trimming of the brow hairs. Additional areas $10 each.
+Back Wax Add-On,Add-Ons,45,50.00,Smooth, hair-free finish across the full back.
