@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <!-- Champagne metallic gradient — vertical, symmetric around the highlight -->
+    <linearGradient id="champ" x1="0" y1="-44" x2="0" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#6A4C20"/>
+      <stop offset="28%"  stop-color="#C4A870"/>
+      <stop offset="48%"  stop-color="#EDD8A8"/>
+      <stop offset="52%"  stop-color="#EDD8A8"/>
+      <stop offset="72%"  stop-color="#C4A870"/>
+      <stop offset="100%" stop-color="#5C3E10"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Black background -->
+  <rect x="-50" y="-50" width="100" height="100" fill="#0C0C0C"/>
+
+  <!-- Outer diamond — stroke only, background shows through -->
+  <polygon points="0,-44 44,0 0,44 -44,0"
+    fill="none" stroke="url(#champ)" stroke-width="3.5"/>
+
+  <!-- Inner diamond — stroke only -->
+  <polygon points="0,-28 28,0 0,28 -28,0"
+    fill="none" stroke="url(#champ)" stroke-width="2.5"/>
+
+  <!-- Three pillars — flat tops, flat bottoms -->
+  <rect x="-11"   y="-8"  width="4.5" height="16" fill="url(#champ)"/>
+  <rect x="-2.25" y="-11" width="4.5" height="22" fill="url(#champ)"/>
+  <rect x="6.5"   y="-8"  width="4.5" height="16" fill="url(#champ)"/>
+</svg>

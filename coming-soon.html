@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0C0C0C">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Josefin+Sans:wght@200;300&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      background: #0C0C0C;
+      color: #C4A870;
+      font-family: 'Josefin Sans', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .lockup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.5rem;
+      opacity: 0;
+      transform: translateY(16px);
+      animation: fadeUp 1.6s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+    }
+
+    .mark {
+      width: clamp(90px, 20vw, 140px);
+      height: auto;
+      opacity: 0.92;
+    }
+
+    .divider {
+      width: 48px;
+      height: 1px;
+      background: linear-gradient(to right, transparent, #C4A870, transparent);
+    }
+
+    .tagline {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: clamp(0.65rem, 2vw, 0.8rem);
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: #C4A870;
+      opacity: 0.7;
+    }
+
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="lockup">
+    <img class="mark" src="mark-dark-256.png" alt="">
+    <div class="divider"></div>
+    <p class="tagline">Coming Soon</p>
+  </div>
+</body>
+</html>
