@@ -687,7 +687,7 @@ h3 { font-size: clamp(1.1rem,  3vw,  1.35rem);}
 }
 
 .service__card.is-open .service__menu {
-  max-height: 700px;
+  max-height: 1400px;
 }
 
 .service__list {
