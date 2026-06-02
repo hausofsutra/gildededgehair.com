@@ -77,6 +77,17 @@
       margin-top: 0.5rem;
     }
 
+    .phone {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(1rem, 2.8vw, 1.2rem);
+      letter-spacing: 0.12em;
+      color: rgba(196, 168, 112, 0.7);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .phone:hover { color: #C4A870; }
+
     @keyframes fadeUp {
       to { opacity: 1; transform: translateY(0); }
     }
@@ -88,7 +99,9 @@
     <div class="divider"></div>
     <p class="name">THE GILDED EDGE</p>
     <p class="neighborhood">Delridge &middot; West Seattle</p>
-    <p class="tagline">Coming Soon</p>
+    <p class="tagline">Coming Soon &middot; June 2026</p>
+    <div class="divider"></div>
+    <a class="phone" href="tel:+12065886694">(206) 588-6694</a>
   </div>
 </body>
 </html>
