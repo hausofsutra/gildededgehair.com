@@ -58,25 +58,37 @@
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Tuesday", "Thursday"],
+        "dayOfWeek": "Sunday",
+        "opens": "11:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Tuesday",
         "opens": "11:00",
         "closes": "20:00"
       },
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": "Wednesday",
-        "opens": "15:00",
+        "opens": "12:00",
         "closes": "20:00"
       },
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Friday",
+        "dayOfWeek": "Thursday",
         "opens": "11:00",
-        "closes": "19:00"
+        "closes": "18:30"
       },
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
+        "dayOfWeek": "Friday",
+        "opens": "12:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
         "opens": "10:00",
         "closes": "17:00"
       }
@@ -166,6 +178,14 @@
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes. Kara Cerf is a certified master makeup artist available for weddings, special occasions, photoshoots, Halloween, and theatrical productions. Book a free consultation to get started."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is your cancellation policy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We have a 2-hour cancellation policy. Late cancellations or no-shows will be charged 50% of the booked service total."
         }
       }
     ]
@@ -712,13 +732,13 @@
           <p class="visit__label">Hours</p>
           <table class="hours__table">
             <tbody>
+              <tr><td>Sunday</td><td>11am – 5pm</td></tr>
               <tr><td>Monday</td><td>Closed</td></tr>
               <tr><td>Tuesday</td><td>11am – 8pm</td></tr>
-              <tr><td>Wednesday</td><td>3pm – 8pm</td></tr>
-              <tr><td>Thursday</td><td>11am – 8pm</td></tr>
-              <tr><td>Friday</td><td>11am – 7pm</td></tr>
+              <tr><td>Wednesday</td><td>12pm – 8pm</td></tr>
+              <tr><td>Thursday</td><td>11am – 6:30pm</td></tr>
+              <tr><td>Friday</td><td>12pm – 8pm</td></tr>
               <tr><td>Saturday</td><td>10am – 5pm</td></tr>
-              <tr><td>Sunday</td><td>10am – 5pm</td></tr>
             </tbody>
           </table>
           <p class="visit__note">Check Vagaro for real-time availability.</p>
@@ -778,6 +798,11 @@
         <div class="faq__item animate-in">
           <p class="faq__q">Do you offer makeup services?</p>
           <p class="faq__a">Yes. Kara is a certified master makeup artist available for weddings, special occasions, photoshoots, Halloween, and theatrical productions. Book a free consultation to get started.</p>
+        </div>
+
+        <div class="faq__item animate-in">
+          <p class="faq__q">What is your cancellation policy?</p>
+          <p class="faq__a">We have a 2-hour cancellation policy. Late cancellations or no-shows will be charged 50% of the booked service total.</p>
         </div>
 
       </div>
