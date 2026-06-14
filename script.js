@@ -74,45 +74,15 @@ document.querySelectorAll('.service__toggle').forEach(btn => {
   });
 });
 
-// Add "Book This Service" button to each service card
+// Add "Book This Service" link to each service card
 document.querySelectorAll('.service__menu').forEach(menu => {
-  const btn = document.createElement('button');
-  btn.className = 'service__book-btn';
-  btn.setAttribute('data-book', '');
-  btn.textContent = 'Book This Service';
-  menu.appendChild(btn);
-});
-
-
-// ── Booking modal ──────────────────────────────────
-const VAGARO_WIDGET = 'https://www.vagaro.com/Users/BusinessWidget.aspx?enc=MMLjhIwJMcwFQhXLL7ifVDxfU652Tr6GORBLpiVWDNX3s/LH2PHecolTaL6Hh5XaXAv1PRzTDHmOrSBgZqrQLcjX/dW09puZMKn7QOSRblo9biWuQ6PagbBL6zRIDe3SiKLyhufWZXwG+nlYOeFpiTtlCZlnHbzXzbVPwtPfdbroVs20ENCKpwGBCUoqqZn/2/lWa3EnhODm55ibCOi6aMndzD1fPAHx63mWPRtP36Kq/6XDcqsQuUBId/mLCWKBuFUT/j/PbPzLAnaXVVPUkqjVZRA0be2tS5T/cPJergiA7SStlNPHY1yYZ/KCl/kBmY13tfs3bptRiMU/EUMpQWXHo4Z4CXPC7ap/5YTVrM8ZzdMVG8YxZ1EiaziZwob/tfbqYS0wupXPQtU2gyt/bqzNGwL97RBmc0AcSOF3al9OsBQ5chUjjaiyFDuaaaJMPV+naM7easv2iRGQS0XjIw==';
-const bookingModal = document.getElementById('bookingModal');
-const bookingFrame = document.getElementById('bookingFrame');
-const bookingClose = document.getElementById('bookingClose');
-
-function openBooking() {
-  if (!bookingFrame.src) bookingFrame.src = VAGARO_WIDGET;
-  bookingModal.classList.add('open');
-  document.body.style.overflow = 'hidden';
-  bookingClose.focus();
-}
-
-function closeBooking() {
-  bookingModal.classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-bookingClose.addEventListener('click', closeBooking);
-
-bookingModal.addEventListener('click', (e) => {
-  if (e.target === bookingModal) closeBooking();
-});
-
-document.addEventListener('click', (e) => {
-  if (e.target.closest('[data-book]')) {
-    e.preventDefault();
-    openBooking();
-  }
+  const a = document.createElement('a');
+  a.className = 'service__book-btn';
+  a.href = 'https://www.vagaro.com/thegildededge';
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.textContent = 'Book This Service';
+  menu.appendChild(a);
 });
 
 
@@ -221,7 +191,6 @@ lightbox.addEventListener('click', (e) => {
 
 // Keyboard controls
 document.addEventListener('keydown', (e) => {
-  if (bookingModal.classList.contains('open') && e.key === 'Escape') { closeBooking(); return; }
   if (!lightbox.classList.contains('open')) return;
   if (e.key === 'Escape')      closeLightbox();
   if (e.key === 'ArrowLeft')   navigate(-1);
