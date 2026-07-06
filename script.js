@@ -9,6 +9,8 @@
 // HIDE popup: set active to false, save the file. That's it.
 const NOTICE = {
   active:  true,
+  showFrom: '2026-07-15',  // start showing on this date (YYYY-MM-DD)
+  showUntil: '2026-08-31', // stop showing after this date (YYYY-MM-DD)
   title:   'Out of Town',
   dates:   'August 22 – August 31, 2026',
   message: 'Please plan ahead for appointments during this time! Thanks for your patronage — I look forward to seeing you at your next appointment.',
@@ -16,6 +18,8 @@ const NOTICE = {
 
 (function () {
   if (!NOTICE.active) return;
+  const today = new Date().toISOString().slice(0, 10);
+  if (today < NOTICE.showFrom || today > NOTICE.showUntil) return;
   const modal    = document.getElementById('noticeModal');
   const closeBtn = document.getElementById('noticeClose');
   const btn      = document.getElementById('noticeBtn');
