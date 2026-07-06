@@ -4,6 +4,40 @@
 
 'use strict';
 
+// ── Out-of-office notice ──────────────────────────
+// SHOW popup: set active to true, fill in dates & message, save the file.
+// HIDE popup: set active to false, save the file. That's it.
+const NOTICE = {
+  active:  true,
+  title:   'Out of Town',
+  dates:   'August 22 – August 31, 2026',
+  message: 'Please plan ahead for appointments during this time! Thanks for your patronage — I look forward to seeing you at your next appointment.',
+};
+
+(function () {
+  if (!NOTICE.active) return;
+  const modal    = document.getElementById('noticeModal');
+  const closeBtn = document.getElementById('noticeClose');
+  const btn      = document.getElementById('noticeBtn');
+
+  document.getElementById('noticeTitle').textContent = NOTICE.title;
+  document.getElementById('noticeDates').textContent = NOTICE.dates;
+  document.getElementById('noticeBody').textContent  = NOTICE.message;
+
+  modal.removeAttribute('hidden');
+  document.body.style.overflow = 'hidden';
+
+  function closeNotice() {
+    modal.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+  }
+
+  closeBtn.addEventListener('click', closeNotice);
+  btn.addEventListener('click', closeNotice);
+  modal.addEventListener('click', (e) => { if (e.target === modal) closeNotice(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeNotice(); });
+})();
+
 // ── Nav: add background on scroll ─────────────────
 const nav = document.getElementById('nav');
 

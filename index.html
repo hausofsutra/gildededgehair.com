@@ -202,6 +202,21 @@
 </head>
 <body>
 
+  <!-- ── Out-of-office notice popup ──────────────────────────────────
+       To show this popup: open script.js and set  active: true
+       To hide it again:   open script.js and set  active: false
+       ──────────────────────────────────────────────────────────────── -->
+  <div id="noticeModal" class="notice-modal" role="dialog" aria-modal="true" aria-labelledby="noticeTitle" hidden>
+    <div class="notice-modal__inner">
+      <button class="notice-modal__close" id="noticeClose" aria-label="Close notice">&#215;</button>
+      <p class="notice-modal__eyebrow">Studio Notice</p>
+      <h2 class="notice-modal__title" id="noticeTitle"></h2>
+      <p class="notice-modal__dates" id="noticeDates"></p>
+      <p class="notice-modal__body" id="noticeBody"></p>
+      <button class="btn btn--brass notice-modal__btn" id="noticeBtn">Got it</button>
+    </div>
+  </div>
+
   <!-- ========== NAV ========== -->
   <header class="nav" id="nav">
     <div class="nav__inner">
