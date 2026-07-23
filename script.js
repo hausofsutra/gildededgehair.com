@@ -11,9 +11,9 @@ const NOTICE = {
   active:  true,
   showFrom: '2026-07-15',  // start showing on this date (YYYY-MM-DD)
   showUntil: '2026-08-31', // stop showing after this date (YYYY-MM-DD)
-  title:   'Out of Town',
-  dates:   'August 22 – August 31, 2026',
-  message: 'Please plan ahead for appointments during this time! Thanks for your patronage — I look forward to seeing you at your next appointment.',
+  title:   'Heads Up from Kara',
+  dates:   'August 22 – 31, 2026',
+  message: 'Kara will be out of town for the last stretch of August, so the studio will be closed during that time. If you\'d like to get in before she heads out, now is a great time to book — she looks forward to seeing you soon!',
 };
 
 (function () {
