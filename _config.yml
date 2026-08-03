@@ -1,0 +1,12 @@
+title: The Gilded Edge
+description: "Boutique hair salon & barbershop in West Seattle"
+url: "https://gildededgehair.com"
+baseurl: ""
+permalink: /blog/:year/:slug/
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - brand-package/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock

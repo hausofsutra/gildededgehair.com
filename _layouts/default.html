@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | The Gilded Edge</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QL4XBBDNFG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QL4XBBDNFG');
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="theme-color" content="#0C0C0C">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Josefin+Sans:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/blog.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">
+        <svg class="nav__mark" width="26" height="26" viewBox="-44 -44 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="goldNav" gradientUnits="userSpaceOnUse" x1="-38" y1="-38" x2="38" y2="38">
+              <stop offset="0%"   stop-color="#2C1800"/>
+              <stop offset="18%"  stop-color="#6A4C20"/>
+              <stop offset="35%"  stop-color="#C4A870"/>
+              <stop offset="50%"  stop-color="#EDD8A8"/>
+              <stop offset="65%"  stop-color="#C4A870"/>
+              <stop offset="82%"  stop-color="#6A4C20"/>
+              <stop offset="100%" stop-color="#2C1800"/>
+            </linearGradient>
+          </defs>
+          <rect x="-29" y="-29" width="58" height="58" rx="1.2" transform="rotate(45)" stroke="url(#goldNav)" stroke-width="3"/>
+          <rect x="-19" y="-19" width="38" height="38" rx=".6"  transform="rotate(45)" stroke="url(#goldNav)" stroke-width="1.8"/>
+          <line x1="-7"  y1="-12" x2="-7"  y2="12" stroke="url(#goldNav)" stroke-width="3.5" stroke-linecap="square"/>
+          <line x1="0"   y1="-15" x2="0"   y2="15" stroke="url(#goldNav)" stroke-width="3.5" stroke-linecap="square"/>
+          <line x1="7"   y1="-12" x2="7"   y2="12" stroke="url(#goldNav)" stroke-width="3.5" stroke-linecap="square"/>
+        </svg>
+        <div class="nav__logo-text">
+          <span class="nav__logo-the">The</span>
+          <span class="nav__logo-name">GILDED EDGE</span>
+          <span class="nav__logo-sub">Barbershop &amp; Salon</span>
+        </div>
+      </a>
+      <div class="nav__right">
+        <a href="https://www.vagaro.com/thegildededge" target="_blank" rel="noopener" class="btn btn--brass btn--sm">Book Now</a>
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="nav__menu" id="navMenu" aria-hidden="true">
+      <a href="/#services">Services</a>
+      <a href="/#gallery">Gallery</a>
+      <a href="/#about">About</a>
+      <a href="/#visit">Visit</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/blog/">Blog</a>
+      <a href="https://www.vagaro.com/thegildededge" target="_blank" rel="noopener" class="nav__menu-book">Book Online</a>
+    </nav>
+  </header>
+
+  {{ content }}
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__name"><em>The</em> GILDED EDGE</span>
+          <span class="footer__sub">Barbershop &amp; Salon</span>
+        </div>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="tel:+12065886694">(206) 588-6694</a>
+          <a href="https://www.vagaro.com/thegildededge" target="_blank" rel="noopener">Book on Vagaro</a>
+        </nav>
+      </div>
+      <p class="footer__copy">&copy; 2026 The Gilded Edge. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const navMenu   = document.getElementById('navMenu');
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        navMenu.setAttribute('aria-hidden', String(expanded));
+        navMenu.classList.toggle('is-open');
+      });
+    }
+  </script>
+</body>
+</html>

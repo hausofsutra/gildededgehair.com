@@ -1,0 +1,269 @@
+/* ================================================
+   BLOG — The Hair Files
+   Styles for post layout, blog listing, and
+   article typography. Shares brand vars from style.css.
+   ================================================ */
+
+/* ── Post header ─────────────────────────────── */
+.post__header {
+  background: var(--charcoal);
+  padding: 6rem 0 3.5rem;
+  border-bottom: 1px solid rgba(196, 168, 112, 0.2);
+}
+
+.post__header-inner {
+  max-width: 780px;
+}
+
+.post__category {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--brass);
+  margin-bottom: 1rem;
+}
+
+.post__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 300;
+  color: var(--linen);
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.post__lead {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-weight: 300;
+  font-style: italic;
+  color: rgba(242, 237, 228, 0.75);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 680px;
+}
+
+.post__meta {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(196, 168, 112, 0.7);
+}
+
+/* ── Post body ───────────────────────────────── */
+.post__body {
+  max-width: 780px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: var(--charcoal);
+}
+
+.post__body h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-weight: 400;
+  color: var(--charcoal);
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(196, 168, 112, 0.3);
+}
+
+.post__body h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  font-weight: 500;
+  color: var(--charcoal);
+  margin: 2rem 0 0.75rem;
+}
+
+.post__body p {
+  font-family: var(--font-serif);
+  font-size: clamp(0.98rem, 2vw, 1.08rem);
+  font-weight: 300;
+  line-height: 1.85;
+  color: #2a2a2a;
+  margin-bottom: 1.4rem;
+}
+
+.post__body ul,
+.post__body ol {
+  font-family: var(--font-serif);
+  font-size: clamp(0.98rem, 2vw, 1.08rem);
+  font-weight: 300;
+  line-height: 1.85;
+  color: #2a2a2a;
+  margin: 0 0 1.4rem 1.5rem;
+}
+
+.post__body li {
+  margin-bottom: 0.5rem;
+}
+
+.post__body strong {
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.post__body em {
+  font-style: italic;
+}
+
+.post__body blockquote {
+  border-left: 3px solid var(--brass);
+  margin: 2rem 0;
+  padding: 0.75rem 1.5rem;
+  background: rgba(196, 168, 112, 0.06);
+  font-style: italic;
+  color: #3a3a3a;
+}
+
+.post__body blockquote p {
+  margin-bottom: 0;
+}
+
+.post__body a {
+  color: #8a6a28;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.post__body a:hover {
+  color: var(--brass);
+}
+
+.post__body hr {
+  border: none;
+  border-top: 1px solid rgba(196, 168, 112, 0.25);
+  margin: 2.5rem 0;
+}
+
+/* ── Post CTA block ──────────────────────────── */
+.post__cta-block {
+  max-width: 780px;
+  padding-bottom: 4rem;
+}
+
+.post__cta {
+  background: var(--charcoal);
+  border: 1px solid rgba(196, 168, 112, 0.2);
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.post__cta-text {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--linen);
+  margin-bottom: 1.5rem;
+}
+
+.post__cta-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ── Blog listing ────────────────────────────── */
+.blog-listing {
+  min-height: 40vh;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.blog-card {
+  border: 1px solid rgba(196, 168, 112, 0.2);
+  background: #fff;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.blog-card:hover {
+  border-color: var(--brass);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.blog-card__link {
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+  height: 100%;
+}
+
+.blog-card__category {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brass);
+  margin-bottom: 0.75rem;
+}
+
+.blog-card__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  font-weight: 400;
+  color: var(--charcoal);
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card__excerpt {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 1.25rem;
+}
+
+.blog-card__meta {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+.blog-card__read {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--brass);
+}
+
+.blog-empty {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-style: italic;
+  color: #888;
+  text-align: center;
+  padding: 4rem 0;
+}

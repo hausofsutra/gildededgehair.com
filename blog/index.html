@@ -1,0 +1,37 @@
+---
+layout: default
+title: "The Hair Files"
+description: "Science-backed hair care, ingredient guides, and style education from Kara Cerf — licensed cosmetologist and owner of The Gilded Edge in West Seattle."
+---
+
+<section class="post__header">
+  <div class="container post__header-inner">
+    <p class="post__category">Knowledge Base</p>
+    <h1 class="post__title">The Hair Files</h1>
+    <p class="post__lead">Science-backed hair care, ingredient guides, and style education from Kara Cerf — licensed cosmetologist, esthetician, and owner of The GILDED EDGE in West Seattle.</p>
+  </div>
+</section>
+
+<section class="section section--light blog-listing">
+  <div class="container">
+    {% if site.posts.size > 0 %}
+    <div class="blog-grid">
+      {% for post in site.posts %}
+      <article class="blog-card">
+        <a href="{{ post.url }}" class="blog-card__link">
+          <p class="blog-card__category">{{ post.category | default: "Hair Education" }}</p>
+          <h2 class="blog-card__title">{{ post.title }}</h2>
+          <p class="blog-card__excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 28 }}</p>
+          <p class="blog-card__meta">
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+          </p>
+          <span class="blog-card__read">Read article &rarr;</span>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="blog-empty">Articles coming soon — check back shortly.</p>
+    {% endif %}
+  </div>
+</section>

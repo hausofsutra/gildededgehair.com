@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/Article">
+
+  <header class="post__header">
+    <div class="container post__header-inner">
+      <p class="post__category">{{ page.category | default: "Hair Education" }}</p>
+      <h1 class="post__title" itemprop="headline">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="post__lead">{{ page.description }}</p>
+      {% endif %}
+      <p class="post__meta">
+        By <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Kara Cerf</span></span>
+        &nbsp;&middot;&nbsp;
+        <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      </p>
+    </div>
+  </header>
+
+  <div class="post__body container" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div class="post__cta-block container">
+    <div class="post__cta">
+      <p class="post__cta-text">Ready to put this into practice? Book with Kara at The GILDED EDGE.</p>
+      <div class="post__cta-btns">
+        <a href="https://www.vagaro.com/thegildededge" target="_blank" rel="noopener" class="btn btn--brass">Book an Appointment</a>
+        <a href="/blog/" class="btn btn--outline">More Articles</a>
+      </div>
+    </div>
+  </div>
+
+</article>
