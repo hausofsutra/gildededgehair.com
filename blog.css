@@ -56,21 +56,21 @@
 
 /* ── Post body ───────────────────────────────── */
 .post__body-section {
-  background: #fff;
+  background: var(--charcoal);
 }
 
 .post__body {
   max-width: 780px;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #1a1a1a;
+  color: var(--linen);
 }
 
 .post__body h2 {
   font-family: var(--font-serif);
   font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 400;
-  color: #1a1a1a;
+  color: #fff;
   margin: 2.5rem 0 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(196, 168, 112, 0.3);
@@ -80,7 +80,7 @@
   font-family: var(--font-serif);
   font-size: clamp(1.2rem, 2.5vw, 1.5rem);
   font-weight: 500;
-  color: #1a1a1a;
+  color: #fff;
   margin: 2rem 0 0.75rem;
 }
 
@@ -89,7 +89,7 @@
   font-size: clamp(1.05rem, 2vw, 1.18rem);
   font-weight: 300;
   line-height: 1.9;
-  color: #1a1a1a;
+  color: var(--linen);
   margin-bottom: 1.4rem;
 }
 
@@ -99,7 +99,7 @@
   font-size: clamp(1.05rem, 2vw, 1.18rem);
   font-weight: 300;
   line-height: 1.9;
-  color: #1a1a1a;
+  color: var(--linen);
   margin: 0 0 1.4rem 1.5rem;
 }
 
@@ -109,7 +109,7 @@
 
 .post__body strong {
   font-weight: 600;
-  color: #1a1a1a;
+  color: #fff;
 }
 
 .post__body em {
@@ -122,7 +122,7 @@
   padding: 0.75rem 1.5rem;
   background: rgba(196, 168, 112, 0.06);
   font-style: italic;
-  color: #3a3a3a;
+  color: var(--linen);
 }
 
 .post__body blockquote p {
