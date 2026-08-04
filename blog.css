@@ -39,7 +39,7 @@
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   font-weight: 300;
   font-style: italic;
-  color: rgba(242, 237, 228, 0.75);
+  color: var(--linen);
   line-height: 1.7;
   margin-bottom: 1.5rem;
   max-width: 680px;
@@ -86,8 +86,8 @@
 
 .post__body p {
   font-family: var(--font-serif);
-  font-size: clamp(1.05rem, 2vw, 1.18rem);
-  font-weight: 300;
+  font-size: clamp(1.2rem, 2vw, 1.35rem);
+  font-weight: 400;
   line-height: 1.9;
   color: var(--linen);
   margin-bottom: 1.4rem;
@@ -96,8 +96,8 @@
 .post__body ul,
 .post__body ol {
   font-family: var(--font-serif);
-  font-size: clamp(1.05rem, 2vw, 1.18rem);
-  font-weight: 300;
+  font-size: clamp(1.2rem, 2vw, 1.35rem);
+  font-weight: 400;
   line-height: 1.9;
   color: var(--linen);
   margin: 0 0 1.4rem 1.5rem;
@@ -130,7 +130,7 @@
 }
 
 .post__body a {
-  color: #8a6a28;
+  color: var(--brass);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
