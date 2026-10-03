@@ -1,22 +1,22 @@
 ---
 layout: post
-title: "Why Is My Hair Falling Out? Let's Actually Talk About It."
-description: "Hair shedding is normal — until it isn't. Kara Cerf breaks down the real causes of hair loss, what a scalp analysis can tell you, and which treatments have science behind them versus which ones are just good marketing."
+title: "Why Is My Hair Falling Out? Let's Talk About It."
+description: "Hair shedding is normal — until it isn't. Kara Cerf on the real causes of hair loss, what a scalp analysis can tell you, and which treatments have science behind them versus which ones are just good marketing."
 category: "Scalp Health"
 date: 2026-08-31
 ---
 
 Hair loss comes up in my chair more than almost anything else. And I get it — it's one of those things that sneaks up on you. One day you're cleaning the shower drain and you think, *that seems like a lot.* Or you pull your part to one side and it looks wider than it used to. It's unsettling in a way that's hard to explain, because your hair is tied up in how you see yourself.
 
-So let's actually talk about it. Not in a scary way, and not in a way that's going to sell you a $90 bottle of something. Just honestly.
+So let's talk about it. Not in a scary way, and not in a way that's going to sell you a $90 bottle of something. Just honestly.
 
-I want to be upfront about something first: I'm a licensed cosmetologist and esthetician. I'm an educator, not a clinician. I can do a thorough scalp analysis, ask the right questions, and tell you what I'm observing — but diagnosing what's causing your hair loss is a dermatologist's job, not mine. What I *can* do is help you understand what you're looking at and what the research actually says, so you can walk into those conversations more informed. That's my role, and I take it seriously.
+I want to be upfront about something first: I'm a licensed cosmetologist and esthetician. I'm an educator, not a clinician. I can do a thorough scalp analysis, ask the right questions, and tell you what I'm observing — but diagnosing what's causing your hair loss is a dermatologist's job, not mine. What I *can* do is help you understand what you're looking at and what the research says, so you can walk into those conversations more informed. That's my role, and I take it seriously.
 
 ---
 
 ## Why Do We Have Hair Anyway?
 
-Before we talk about losing it, let's talk about what it's actually doing.
+Before we talk about losing it, let's talk about what it's doing.
 
 Hair isn't just aesthetic — it's functional. Your scalp hair acts as a buffer between your skin and the environment: it protects against UV exposure, helps regulate temperature, and cushions the skull from minor impacts. Each hair follicle is also connected to nerve endings, which means hair plays a role in sensory function — it helps you detect touch, pressure, and movement at the skin's surface.
 
@@ -28,7 +28,7 @@ So when hair starts to change or disappear, it makes sense that it hits harder t
 
 ---
 
-## First — What's Actually Normal?
+## First — What's Normal?
 
 Most people lose between 50 and 100 hairs a day. <sup>[1]</sup> I know that sounds like a lot, but your scalp has roughly 100,000 follicles, and they're all cycling at different rates through growth, transition, and rest. Some shedding is just the system working the way it's supposed to.
 
@@ -70,7 +70,7 @@ Caught early, it's reversible. Caught late, it's not. *If your hairstyle is the 
 
 A healthy scalp is the foundation for healthy hair. Seborrheic dermatitis (the chronic, oily, flaky kind of dandruff), scalp psoriasis, and folliculitis can all interfere with the hair growth environment. These aren't just cosmetic nuisances — they can cause real damage to follicles if they go untreated.
 
-If your scalp is consistently inflamed, itchy, or flaking, a dermatologist can figure out what's actually going on. That's the right call.
+If your scalp is consistently inflamed, itchy, or flaking, a dermatologist can figure out what's going on. That's the right call.
 
 ### Nutritional Deficiencies
 
@@ -84,7 +84,7 @@ I'm not going to list out deficiencies and play doctor — that's not my lane. W
 
 When I sit down with a client for a scalp analysis, I'm looking at things that are genuinely hard to see on your own — the distribution of thinning, whether the hair is breaking mid-shaft or releasing at the root, what the scalp surface looks like, early signs of follicle miniaturization along the hairline or part. I'm also asking questions: What's been going on in your life? What's your diet like? What are you putting on your scalp?
 
-That conversation matters. A lot of clients have never had someone actually look closely at their scalp and talk through what they're seeing. It changes things.
+That conversation matters. A lot of clients have never had someone look closely at their scalp and talk through what they're seeing. It changes things.
 
 What I can't do is tell you *why* it's happening from a medical standpoint. That requires bloodwork, clinical tools, sometimes a biopsy. My job is to give you a clear picture of what I'm observing and point you in the right direction if something needs more than I can offer.
 
@@ -92,7 +92,7 @@ What I can't do is tell you *why* it's happening from a medical standpoint. That
 
 ## The Products Conversation — Research vs. Marketing
 
-Okay. This is the part I really want to dig into, because the hair loss market is massive and a lot of it is built on hope rather than evidence. I'm all for holistic and natural approaches — but I want to know what the science actually says. So let me break it down by what we know.
+Okay. This is the part I really want to dig into, because the hair loss market is massive and a lot of it is built on hope rather than evidence. I'm all for holistic and natural approaches — but I want to know what the science says. So let me break it down by what we know.
 
 ### Minoxidil and Finasteride — The Ones With Actual FDA Approval
 
@@ -114,7 +114,7 @@ My take: *it's not nothing, but it's not everything.* If your hair loss is drive
 
 ### PRP (Platelet-Rich Plasma) — Worth Knowing About
 
-PRP involves taking concentrated growth factors from your own blood and injecting them into the scalp. This is done by dermatologists and medical spas — not salons. I mention it because clients ask, and the evidence is actually meaningful here.
+PRP involves taking concentrated growth factors from your own blood and injecting them into the scalp. This is done by dermatologists and medical spas — not salons. I mention it because clients ask, and the evidence holds up.
 
 A 2025 meta-analysis covering 43 randomized controlled trials found that PRP improves hair density and reduces hair loss with moderate clinical evidence. <sup>[6]</sup> PRP combined with minoxidil outperformed either treatment alone. Results require maintenance sessions and it's not a cure, but this is one of the injectable options with real research behind it.
 
@@ -124,9 +124,9 @@ Copper peptide (GHK-Cu) injections — delivered as scalp mesotherapy — are in
 
 This is a space I'm watching. It's not snake oil. It's also not ready to be called proven. If a provider is recommending it, ask them to show you the research.
 
-### Rosemary Oil — The Natural Option That Actually Has a Study
+### Rosemary Oil — The Natural Option With a Real Study Behind It
 
-I love this one because it surprises people. A 2015 randomized trial published in *SKINmed* compared rosemary oil directly to minoxidil 2% in 100 participants over six months. <sup>[8]</sup> At the end of the study, hair counts were not significantly different between the two groups. Scalp itching was actually more common in the minoxidil group.
+I love this one because it surprises people. A 2015 randomized trial published in *SKINmed* compared rosemary oil directly to minoxidil 2% in 100 participants over six months. <sup>[8]</sup> At the end of the study, hair counts were not significantly different between the two groups. Scalp itching was more common in the minoxidil group.
 
 The caveats are real — it was one small study, and it compared to the 2% minoxidil formulation, not the stronger 5% that's more commonly recommended. But it's a legitimate published finding. If you're looking for a low-risk addition to your scalp routine with some science behind it, rosemary oil is worth considering.
 
@@ -134,7 +134,7 @@ The caveats are real — it was one small study, and it compared to the 2% minox
 
 Let me be straightforward about a few popular ones:
 
-**Biotin:** Only helps if you're actually deficient. There's no clinical evidence that extra biotin improves hair growth in people whose levels are already normal. *Biotin can't build what you already have enough of.* Most people taking biotin supplements are not deficient and are not getting a meaningful benefit.
+**Biotin:** Only helps if you're deficient. There's no clinical evidence that extra biotin improves hair growth in people whose levels are already normal. *Biotin can't build what you already have enough of.* Most people taking biotin supplements are not deficient and are not getting a meaningful benefit.
 
 **Castor oil:** Popular, widely recommended, no significant clinical trials. It conditions the hair shaft, which is nice. It will not regrow lost hair.
 
@@ -142,7 +142,7 @@ Let me be straightforward about a few popular ones:
 
 **Caffeine shampoos:** There's some interesting lab data — caffeine can extend the anagen phase in isolated follicle cells — but the leap from a test tube to meaningful results through a rinse-off product on a live scalp hasn't been proven in well-designed human trials.
 
-None of these will hurt you. I'm not saying don't use them. I'm saying don't let them replace something that might actually work while your hair loss progresses. *Anecdote is not a clinical trial.*
+None of these will hurt you. I'm not saying don't use them. I'm saying don't let them replace something that might work while your hair loss progresses. *Anecdote is not a clinical trial.*
 
 ---
 
@@ -163,13 +163,13 @@ A trichologist is another option worth knowing about — they specialize specifi
 
 ## Here's What I'd Tell You If You Were Sitting in My Chair
 
-Hair loss is common, often temporary, and almost always more manageable than it feels when you're in the thick of it. The worst thing you can do is either ignore it or throw every product on the market at it without understanding what's actually going on.
+Hair loss is common, often temporary, and almost always more manageable than it feels when you're in the thick of it. The worst thing you can do is either ignore it or throw every product on the market at it without understanding what's going on.
 
 Start with the basics. Look honestly at your stress levels, your diet, and your styling habits. Get bloodwork done. When you're reading about a product, ask whether there are published studies, who funded them, and what they were compared against. There's a big difference between "clients loved it" and "this was tested in a controlled trial."
 
 I'll never claim to have all the answers — I'm always learning too. New research comes out, our understanding shifts, and what we knew five years ago isn't always what we know today. That's just how science works. But I'm a hair nerd through and through, and staying on top of this stuff is something I genuinely love doing. Growing alongside my clients is part of the job.
 
-If you want to sit down, talk through what you're seeing, and get a real look at your scalp — that's exactly what I'm here for. Book a scalp analysis at THE GILDED EDGE and let's figure out what's actually going on together.
+If you want to sit down, talk through what you're seeing, and get a real look at your scalp — that's exactly what I'm here for. Book a scalp analysis at THE GILDED EDGE and let's figure out what's going on together.
 
 ---
 

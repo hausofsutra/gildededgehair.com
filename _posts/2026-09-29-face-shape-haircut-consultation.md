@@ -1,20 +1,20 @@
 ---
 layout: post
 title: "Face Shape, Haircuts, and How to Show Up Ready for Your Consultation"
-description: "Face shape is a starting point — not a rulebook. Kara Cerf breaks down what face shapes actually tell us, how to find yours, and how to walk into a consultation ready to get exactly what you want."
+description: "Face shape is a starting point — not a rulebook. Kara Cerf on what face shapes tell us, how to find yours, and how to walk into a consultation ready to get exactly what you want."
 category: "Cut & Style"
 date: 2026-09-29
 ---
 
 If you've ever typed "best haircut for my face shape" into a search bar, you are not alone. It's one of the most searched topics in hair — and the internet will hand you a neat little chart and tell you exactly what you should and shouldn't be wearing on your head.
 
-I want to complicate that a little. Not because face shape doesn't matter — it does — but because a chart can't see your hair texture, your lifestyle, your neck length, your personal style, or how much time you actually spend getting ready in the morning. Face shape is a starting point, not a verdict. My job in a consultation is to take all of that in and come up with something that works for the whole picture.
+I want to complicate that a little. Not because face shape doesn't matter — it does — but because a chart can't see your hair texture, your lifestyle, your neck length, your personal style, or how much time you spend getting ready in the morning. Face shape is a starting point, not a verdict. My job in a consultation is to take all of that in and come up with something that works for the whole picture.
 
-So let's talk about what face shape actually tells us, how to figure out yours, and — just as importantly — how to show up to a consultation ready to get the best possible result.
+So let's talk about what face shape tells us, how to figure out yours, and — just as importantly — how to show up to a consultation ready to get the best possible result.
 
 ---
 
-## What Face Shape Actually Tells Us
+## What Face Shape Tells Us
 
 The idea behind face shape guidelines is proportion. Certain cuts and styles add visual width, height, or length — and depending on the shape of your face, you might want more of one and less of another.
 
@@ -36,7 +36,7 @@ Styles that tend to work: longer lengths, layers that fall past the chin, height
 
 ### Square
 
-A square face has a strong, angular jawline with a forehead and jaw that are roughly equal in width. The structure is striking — it's a shape a lot of people want, actually — and cuts that soften the angles tend to be most flattering.
+A square face has a strong, angular jawline with a forehead and jaw that are roughly equal in width. The structure is striking — it's a shape a lot of people love — and cuts that soften the angles tend to be most flattering.
 
 Layers, waves, and texture do a lot of work here. Side parts, curtain bangs, and cuts with movement work well. Very blunt, geometric cuts can make a square jaw look even more pronounced, which may or may not be what you're going for.
 
@@ -70,7 +70,7 @@ Face shape is one input. Here's what else goes into a cut recommendation:
 
 **Lifestyle and maintenance.** How much time do you spend on your hair in the morning? Do you own a diffuser? A round brush? Do you air dry? The most flattering cut in the world doesn't work if you're not going to maintain it. A good consultation takes this seriously.
 
-**Your personal style.** Fashion, personality, how you carry yourself — these things matter. Someone with a square jaw who loves a sharp, edgy aesthetic might want to lean into the angles, not soften them. Rules are a starting point. You get to decide what you actually want.
+**Your personal style.** Fashion, personality, how you carry yourself — these things matter. Someone with a square jaw who loves a sharp, edgy aesthetic might want to lean into the angles, not soften them. Rules are a starting point. You get to decide what you want.
 
 ---
 
@@ -94,17 +94,17 @@ A picture is worth a thousand words, and in a hair consultation that is genuinel
 
 The same goes for photos of things you've had before that you *didn't* like. That's often even more useful than the inspiration. If I know what missed, I can figure out why — was it the length? The shape? How it grew out? The weight? The more clearly we can define the no, the better we can dial in the yes.
 
-One more thing on photos: try to find inspiration images of hair that actually behaves like yours. If you have thick, coily hair, find photos of thick, coily hair in the style you love. If your hair is fine and straight, look for that. A cut can look completely different depending on texture and density — and seeing it on similar hair gives you a much more realistic picture of what to expect.
+One more thing on photos: try to find inspiration images of hair that behaves like yours. If you have thick, coily hair, find photos of thick, coily hair in the style you love. If your hair is fine and straight, look for that. A cut can look completely different depending on texture and density — and seeing it on similar hair gives you a much more realistic picture of what to expect.
 
-And a word about AI-generated images: they're everywhere now as style inspo, and I get why — they're beautiful. But AI image generators are still far from perfect when it comes to hair. The results are often idealized in ways that don't reflect how real hair actually grows, moves, or behaves. I'm not saying don't use them, but go in with realistic expectations. Real photos of real people with real hair will always give us both a more honest starting point.
+And a word about AI-generated images: they're everywhere now as style inspo, and I get why — they're beautiful. But AI image generators are still far from perfect when it comes to hair. The results are often idealized in ways that don't reflect how real hair grows, moves, or behaves. I'm not saying don't use them, but go in with realistic expectations. Real photos of real people with real hair will always give us both a more honest starting point.
 
 ### Know your lifestyle honestly
 
-Be real about how you get ready in the morning. Not how you wish you got ready — how you actually do. If you air dry and don't own a diffuser, don't let me talk you into a cut that requires a diffuser. If you wash your hair twice a week, tell me. If you're a low-maintenance person who wants a low-maintenance cut, say that clearly. There's no wrong answer — I just need to know.
+Be real about how you get ready in the morning. Not how you wish you got ready — how you do. If you air dry and don't own a diffuser, don't let me talk you into a cut that requires a diffuser. If you wash your hair twice a week, tell me. If you're a low-maintenance person who wants a low-maintenance cut, say that clearly. There's no wrong answer — I just need to know.
 
 ### Tell me your hair history
 
-Have you colored it recently? Had a keratin treatment? Relaxed it? Is there any chemical history from the last year or two still in your hair? This affects the integrity of the hair, how it will behave, and sometimes what's actually possible at this appointment. I'm not judging — I'm building context.
+Have you colored it recently? Had a keratin treatment? Relaxed it? Is there any chemical history from the last year or two still in your hair? This affects the integrity of the hair, how it will behave, and sometimes what's possible at this appointment. I'm not judging — I'm building context.
 
 ### Be specific about what you're nervous about
 
@@ -120,7 +120,7 @@ You're allowed to ask why I'm recommending what I'm recommending. You're allowed
 
 When you sit down, I'm looking at more than your face shape. I'm looking at your hair's density, texture, and natural growth patterns. I'm watching where your cowlicks are and how your hairline naturally falls. I'm thinking about how the cut will move when it's dry and unstyled — because that's how you're going to live in it most days.
 
-I'm also listening for what you *don't* say. Sometimes the most important information is in the hesitation. "I guess I could try a shorter length" often means "I'm not sure I actually want that." I'd rather we slow down and get it right than rush past a moment of uncertainty.
+I'm also listening for what you *don't* say. Sometimes the most important information is in the hesitation. "I guess I could try a shorter length" often means "I'm not sure I want that." I'd rather we slow down and get it right than rush past a moment of uncertainty.
 
 The consultation is where the whole service either gets set up well or doesn't. I take it seriously, and I want you to as well.
 
@@ -128,7 +128,7 @@ The consultation is where the whole service either gets set up well or doesn't. 
 
 ## The Bottom Line
 
-Face shape is a useful lens — not a limitation. Know yours, understand what it means in terms of proportion and balance, but don't let a chart override your instincts about what you actually love on yourself.
+Face shape is a useful lens — not a limitation. Know yours, understand what it means in terms of proportion and balance, but don't let a chart override your instincts about what you love on yourself.
 
 And when you come in for a consultation, come prepared. Bring your photos, be honest about your lifestyle, tell me your history, and ask questions. The more you bring to that conversation, the more I can bring back.
 
