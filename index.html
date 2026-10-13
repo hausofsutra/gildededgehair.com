@@ -247,7 +247,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Josefin+Sans:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Josefin+Sans:wght@100;200;300;400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Josefin+Sans:wght@100;200;300;400&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -717,7 +718,7 @@
     <div class="container">
       <div class="about__inner">
         <div class="about__image-col animate-in">
-          <img src="images/kara-cerf-owner-gilded-edge-west-seattle-stylist.webp" alt="Kara Cerf, licensed cosmetologist and owner of The Gilded Edge hair salon and barbershop in West Seattle">
+          <img src="images/kara-cerf-owner-gilded-edge-west-seattle-stylist.webp" alt="Kara Cerf, licensed cosmetologist and owner of The Gilded Edge hair salon and barbershop in West Seattle" loading="lazy">
         </div>
         <div class="about__text animate-in">
           <div class="section__accent section__accent--left"></div>
