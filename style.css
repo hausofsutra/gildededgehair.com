@@ -1627,8 +1627,8 @@ h3 { font-size: clamp(1.1rem,  3vw,  1.35rem);}
    ================================================ */
 @media (min-width: 1024px) {
   .hero__diamond {
-    width: 760px;
-    height: 760px;
+    width: 860px;
+    height: 860px;
   }
 
   .services__grid {
