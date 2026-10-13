@@ -1626,6 +1626,11 @@ h3 { font-size: clamp(1.1rem,  3vw,  1.35rem);}
    RESPONSIVE — WIDE (1024px+)
    ================================================ */
 @media (min-width: 1024px) {
+  .hero__diamond {
+    width: 760px;
+    height: 760px;
+  }
+
   .services__grid {
     grid-template-columns: repeat(3, 1fr);
   }
