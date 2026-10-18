@@ -1,6 +1,38 @@
 ---
 layout: default
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+  "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
+  "url": "https://gildededgehair.com{{ page.url }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gildededgehair.com{{ page.url }}"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Kara Cerf",
+    "jobTitle": "Licensed Cosmetologist & Esthetician",
+    "url": "https://gildededgehair.com/#about"
+  },
+  "publisher": {
+    "@type": "HairSalon",
+    "name": "The Gilded Edge",
+    "url": "https://gildededgehair.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gildededgehair.com/favicon.svg"
+    }
+  },
+  "articleSection": "{{ page.category | default: 'Hair Education' | escape }}",
+  "inLanguage": "en-US"
+}
+</script>
 <article class="post" itemscope itemtype="https://schema.org/Article">
 
   <header class="post__header">
