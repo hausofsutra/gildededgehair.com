@@ -42,14 +42,21 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HairSalon",
+    "@type": ["HairSalon", "Barbershop"],
     "name": "The Gilded Edge",
     "alternateName": "The Gilded Edge Barbershop & Salon",
-    "description": "A boutique micro hair studio in West Seattle offering haircuts, vivid color, balayage, barbering, waxing, and makeup artistry. Owned and operated by licensed cosmetologist, esthetician, and educator Kara Cerf.",
+    "description": "A boutique micro hair studio in West Seattle offering precision haircuts, fades, vivid and fashion hair color, balayage, highlights, perms, barbering, beard grooming, brow waxing, keratin treatments, and makeup artistry. Owned and operated by Kara Cerf, a licensed cosmetologist, esthetician, and cosmetology educator with over a decade of experience.",
     "url": "https://gildededgehair.com",
     "telephone": "+12065886694",
     "priceRange": "$$",
-    "image": "https://gildededgehair.com/images/west-seattle-pixie-cut-transformation.webp",
+    "logo": "https://gildededgehair.com/favicon.svg",
+    "image": [
+      "https://gildededgehair.com/images/west-seattle-pixie-cut-transformation.webp",
+      "https://gildededgehair.com/images/copper-bob-color-transformation-kara-cerf.webp",
+      "https://gildededgehair.com/images/high-fade-slick-back-west-seattle-barbershop.webp",
+      "https://gildededgehair.com/images/vivid-purple-hair-color-transformation-seattle.webp",
+      "https://gildededgehair.com/images/kara-cerf-owner-gilded-edge-west-seattle-stylist.webp"
+    ],
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "5216 Delridge Way SW, Unit A",
@@ -104,8 +111,50 @@
     "founder": {
       "@type": "Person",
       "name": "Kara Cerf",
-      "jobTitle": "Owner, Licensed Cosmetologist & Educator"
+      "jobTitle": "Owner, Licensed Cosmetologist & Educator",
+      "description": "Kara Cerf is a licensed cosmetologist, licensed esthetician, certified master makeup artist, and cosmetology instructor based in West Seattle. She has been styling since 2013 and has served as Executive Director of Washington Beauty School. She specializes in precision haircuts, vivid and fashion hair color, balayage, barbering, and scalp health education.",
+      "knowsAbout": [
+        "Haircuts and Barbering",
+        "Vivid and Fashion Hair Color",
+        "Balayage and Highlights",
+        "Scalp Health",
+        "Curly Hair",
+        "Cosmetology Education",
+        "Makeup Artistry",
+        "Wig and Hair Replacement"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "License",
+          "name": "Washington State Cosmetology License"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "License",
+          "name": "Washington State Esthetics License"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "License",
+          "name": "Washington State Cosmetology Instructor License"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Certification",
+          "name": "Master Makeup Artist Certification"
+        }
+      ],
+      "worksFor": {
+        "@type": "HairSalon",
+        "name": "The Gilded Edge",
+        "url": "https://gildededgehair.com"
+      },
+      "sameAs": [
+        "https://www.instagram.com/gildededgehair"
+      ]
     },
+    "foundingDate": "2024",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Hair & Beauty Services",
@@ -127,13 +176,17 @@
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Wig & Hairpiece Styling"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Keratin Smoothing Treatment"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Deep Conditioning Treatment"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Scalp Analysis"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Scalp Massage"}}
       ]
     },
     "areaServed": [
       {"@type": "City", "name": "Seattle"},
       {"@type": "Neighborhood", "name": "West Seattle"},
-      {"@type": "Neighborhood", "name": "Delridge"}
+      {"@type": "Neighborhood", "name": "Delridge"},
+      {"@type": "Neighborhood", "name": "Admiral"},
+      {"@type": "Neighborhood", "name": "Alki"},
+      {"@type": "Neighborhood", "name": "White Center"}
     ],
     "currenciesAccepted": "USD",
     "paymentAccepted": "Cash, Credit Card",
@@ -171,7 +224,8 @@
     ],
     "sameAs": [
       "https://share.google/KjIXcQYaUrsUsBghm",
-      "https://www.vagaro.com/thegildededge"
+      "https://www.vagaro.com/thegildededge",
+      "https://www.instagram.com/gildededgehair"
     ]
   }
   </script>
@@ -673,9 +727,7 @@
         <div class="gallery__item"><img loading="lazy" src="images/natural-curly-hair-cut-west-seattle-salon.webp" alt="Natural curly hair cut and style, West Seattle salon"></div>
         <div class="gallery__item"><img loading="lazy" src="images/blonde-highlights-balayage-long-hair-seattle-salon.webp" alt="Blonde highlights and balayage on long hair at The Gilded Edge, Seattle hair salon"></div>
         <!-- Fun & bold colors -->
-        <div class="gallery__item"><img loading="lazy" src="images/mohawk-punk-green-skunk-stripe-vivid-haircolor-west-seattle.webp" alt="Mohawk haircut with green skunk stripe vivid hair color — The Gilded Edge, West Seattle barbershop and salon"></div>
         <div class="gallery__item"><img loading="lazy" src="images/green-vivid-mohawk-fade-west-seattle-barbershop.webp" alt="Vivid green mohawk fade haircut at The Gilded Edge, West Seattle barbershop"></div>
-        <div class="gallery__item"><img loading="lazy" src="images/green-mohawk-shaved-sides-punk-barbershop-west-seattle.webp" alt="Punk mohawk with shaved sides and vivid green hair color at The Gilded Edge, West Seattle barbershop"></div>
         <div class="gallery__item"><img loading="lazy" src="images/vivid-lime-green-curly-fade-west-seattle.webp" alt="Vivid lime green color on curly fade — fashion haircut West Seattle"></div>
         <div class="gallery__item"><img loading="lazy" src="images/crisp-bob-copper-fashion-haircolor-west-seattle-salon.webp" alt="Crisp bob haircut with copper fashion hair color at The Gilded Edge, West Seattle salon"></div>
         <div class="gallery__item"><img loading="lazy" src="images/teal-dip-dye-ombre-fashion-color-wavy-hair-west-seattle.webp" alt="Teal dip dye ombre fashion color on wavy hair at The Gilded Edge, West Seattle salon"></div>
