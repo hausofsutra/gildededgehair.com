@@ -393,7 +393,7 @@ h3 { font-size: clamp(1.1rem,  3vw,  1.35rem);}
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(242, 237, 228, 0.65);
+  color: rgba(242, 237, 228, 0.85);
   padding: 1rem var(--pad-h);
   border-bottom: 1px solid var(--linen-faint);
   transition: color 0.2s;
@@ -1511,7 +1511,7 @@ h3 { font-size: clamp(1.1rem,  3vw,  1.35rem);}
 
   .nav__menu a {
     font-size: 0.65rem;
-    color: rgba(242, 237, 228, 0.6);
+    color: rgba(242, 237, 228, 0.85);
     padding: 0;
     border: none;
   }
