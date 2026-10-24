@@ -1049,9 +1049,7 @@ h3 { font-size: clamp(1.1rem,  3vw,  1.35rem);}
 
 .about__image-col img {
   width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-  object-position: center top;
+  height: auto;
   display: block;
   border: 1px solid rgba(196, 168, 112, 0.2);
 }
