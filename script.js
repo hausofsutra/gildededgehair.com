@@ -8,12 +8,12 @@
 // SHOW popup: set active to true, fill in dates & message, save the file.
 // HIDE popup: set active to false, save the file. That's it.
 const NOTICE = {
-  active:  true,
-  showFrom: '2026-07-15',  // start showing on this date (YYYY-MM-DD)
-  showUntil: '2026-08-31', // stop showing after this date (YYYY-MM-DD)
-  title:   'Heads Up from Kara',
-  dates:   'August 22 – 31, 2026',
-  message: 'Kara will be out of town for the last stretch of August, so the studio will be closed during that time. If you\'d like to get in before she heads out, now is a great time to book — she looks forward to seeing you soon!',
+  active:    true,
+  showFrom:  '2026-11-05',  // start showing on this date (YYYY-MM-DD)
+  showUntil: '2026-12-29',  // stop showing after this date (YYYY-MM-DD)
+  title:     'Holiday Season Is Here',
+  dates:     '',
+  message:   'The next few weeks book up fast. If you want a fresh cut or color before the holidays, now\'s the time to get on the books.<br><br>Don\'t see the time you were hoping for? Book the closest spot that works anyway, then add yourself to the waitlist for the day you really want. That way you\'re guaranteed a seat, and if a cancellation opens up, you\'re first in line to move.',
 };
 
 (function () {
@@ -25,8 +25,10 @@ const NOTICE = {
   const btn      = document.getElementById('noticeBtn');
 
   document.getElementById('noticeTitle').textContent = NOTICE.title;
-  document.getElementById('noticeDates').textContent = NOTICE.dates;
-  document.getElementById('noticeBody').textContent  = NOTICE.message;
+  const datesEl = document.getElementById('noticeDates');
+  datesEl.textContent = NOTICE.dates;
+  datesEl.style.display = NOTICE.dates ? '' : 'none';
+  document.getElementById('noticeBody').innerHTML    = NOTICE.message;
 
   modal.removeAttribute('hidden');
   document.body.style.overflow = 'hidden';
